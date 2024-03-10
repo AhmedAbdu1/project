@@ -1,9 +1,11 @@
 #include <iostream>
+#include "Person.h"
 using namespace std;
 
 int main(){
-    cout << "Hello Git" << endl;
-    cout << "This is the first change on GitHub" << endl;
+
+    Person *p = new Person("Ali",777);
+    p ->print();
 
 
 }
